@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(239, 236, 236);
+  width: 100%;
+  height: 100%;
+}
+
+.home-page,
+.about-page,
+.projects-page {
+  padding-top: 80px;
+}
+
+.about-me {
+  margin: 4rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-me h1 {
+  font-size: 2.5rem;
+}
+.about-me .underline {
+  width: 75px;
+  height: 5px;
+  border-radius: 15px;
+  background-color: #ff6242;
+  margin: 10px 0 20px;
+}
+.about-me p:last-child {
+  font-size: 1.1rem;
+}
+
+.main-about {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(85, 85, 85);
+}
+.main-about .left-about {
+  text-align: justify;
+  max-width: 40%;
+}
+.main-about .left-about h2 {
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 550;
+  margin-bottom: 10px;
+}
+.main-about .left-about p {
+  margin-bottom: 20px;
+}
+.main-about .right-about .skills {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 20px;
+}
+.main-about .right-about h2 {
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 550;
+  margin-bottom: 10px;
+}
+.main-about .right-about p {
+  padding: 10px;
+  background-color: rgb(210, 206, 206);
+  border-radius: 10px;
+  text-align: center;
+}/*# sourceMappingURL=About.css.map */

@@ -1,0 +1,45 @@
+body {
+  overflow-x: hidden;
+}
+
+img {
+  width: 100vw;
+  height: 110vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+.content h1 {
+  font-size: 5rem;
+  font-weight: 550;
+  margin-top: 4rem;
+}
+.content p {
+  font-size: 1.15rem;
+  margin-bottom: 6rem;
+}
+.content button {
+  background-color: #ff6242;
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+  height: 60px;
+  color: white;
+  font-weight: 550;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+.content button:hover {
+  transform: translateY(-5px);
+  background-color: #e3583c;
+  transition: all 0.3s ease-in-out;
+}/*# sourceMappingURL=Home.css.map */

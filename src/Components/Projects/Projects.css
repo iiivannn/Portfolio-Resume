@@ -1,0 +1,71 @@
+.project-wrapper {
+  background-color: rgb(227, 224, 224);
+  width: 100%;
+  height: auto;
+}
+
+.home-page,
+.about-page,
+.projects-page {
+  padding-top: 80px;
+}
+
+.project-title {
+  padding: 4rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.project-title h1 {
+  font-size: 2.5rem;
+}
+.project-title .underline {
+  width: 75px;
+  height: 5px;
+  border-radius: 15px;
+  background-color: #ff6242;
+  margin: 10px 0 20px;
+}
+.project-title p:last-child {
+  font-size: 1.1rem;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.project-item {
+  margin-bottom: 75px;
+}
+.project-item .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: -moz-max-content;
+  height: max-content;
+  width: 70vw;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+.project-item .card img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.project-item .card h2 {
+  margin: 2rem 0 1rem;
+}
+.project-item .card p {
+  margin-bottom: 2rem;
+  padding: 20px;
+  text-align: justify;
+}/*# sourceMappingURL=Projects.css.map */
