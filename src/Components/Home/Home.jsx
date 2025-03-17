@@ -9,8 +9,7 @@ function Home() {
       <div className="content">
         <h1>Hello! I&apos;m Ivan Abillon.</h1>
         <p>
-          A beginner full-stack software developer that mainly focuses on UI/UX
-          design.
+          A beginner full-stack software developer specializing in UI/UX design.
         </p>
         <a href="#projects">
           <button>Projects</button>
