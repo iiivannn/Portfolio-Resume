@@ -8,9 +8,7 @@ function Home() {
 
       <div className="content">
         <h1>Hello! I&apos;m Ivan Abillon.</h1>
-        <p>
-          A beginner full-stack software developer specializing in UI/UX design.
-        </p>
+        <p>A software developer specializing in full-stack web development.</p>
         <a href="#projects">
           <button>Projects</button>
         </a>
