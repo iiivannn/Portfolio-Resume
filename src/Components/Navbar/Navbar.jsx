@@ -1,4 +1,4 @@
-import pic from "../../assets/fb-pfp.jpg";
+import pic from "../../assets/pfp.png";
 import "./Navbar.css";
 
 function Navbar() {

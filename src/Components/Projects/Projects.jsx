@@ -1,7 +1,7 @@
 import "./Projects.css";
-import proj1 from "../../assets/react.png";
-import proj2 from "../../assets/php.png";
-import proj3 from "../../assets/thesis.png";
+import proj1 from "../../assets/parsafe.png";
+import proj2 from "../../assets/react.png";
+import proj3 from "../../assets/php.png";
 import proj4 from "../../assets/cs50.png";
 
 function Projects() {
@@ -18,37 +18,46 @@ function Projects() {
 
       <div className="project-content">
         <div className="project-item">
-          <div className="card">
-            <img src={proj1} alt="" />
-            <h2>Architecture Website Using ReactJS</h2>
-            <p>
-              Using ReactJS, I made a website with a theme of architecture. I
-              used libraries such as ScrollReveal and Marquee to enhance the
-              website. I also made a sequencing animation of texts and images
-              using ScrollReveal to make the website more engaging.
-            </p>
-          </div>
+          <a href="https://supabase-users.vercel.app/" target="_blank">
+            <div className="card">
+              <img src={proj1} alt="" />
+              <h2>ParSafe - “A Smart Parcel Receiver”</h2>
+              <p>
+                The web app of the automatic parcel receiver. The web app was
+                made using ReactJS, Supabase, and Vercel. With various features
+                like protected routes, password encryption, cookie-based session
+                handling, and responsive design.
+              </p>
+            </div>
+          </a>
         </div>
         <div className="project-item">
-          <div className="card">
-            <img src={proj2} alt="" />
-            <h2>Thesis Registration Website with PHP and HTML</h2>
-            <p>
-              Here I used PHP and HTML for the whole project. The website can
-              register thesis, add it to the database, and then be able to
-              search or filter the thesis a user may want to view. The database
-              used is MSSQL. It also uses a login system for administrators by
-              manually adding an administrator account in the database.
-            </p>
-          </div>
+          <a
+            href="https://architectural-website-two.vercel.app/"
+            target="_blank"
+          >
+            <div className="card">
+              <img src={proj2} alt="" />
+              <h2>Architecture Website Using ReactJS</h2>
+              <p>
+                An E-commerce website of a mock architecture company made using
+                ReactJS and SASS. Focusing mainly on the UI/UX design, the
+                website used libraries to enhance the web design and experience.
+              </p>
+            </div>
+          </a>
         </div>
         <div className="project-item">
           <div className="card">
             <img src={proj3} alt="" />
-            <h2>Login system using Flask</h2>
+            <h2>Thesis Registration Website with PHP and HTML</h2>
             <p>
-              I implemented a login system using flask as well as routes. It has
-              a dashboard once a user have successfully logged in.
+              A full stack thesis registration web app using PHP and HTML. The
+              website can register thesis, add it to the database, and then be
+              able to search or filter the thesis a user may want to view. The
+              database used is MSSQL. It also uses a login system for
+              administrators by manually adding an administrator account in the
+              database.
             </p>
           </div>
         </div>
@@ -57,10 +66,11 @@ function Projects() {
             <img src={proj4} alt="" />
             <h2>Money Tracker Website using Flask</h2>
             <p>
-              So this website is mainly a virtual diary to track your money
-              flow. It has a summary of the incomes and expenses as well as the
-              remaining budget. It also has a section to add either an income or
-              expense. And lastly, the user can view their income and expense.
+              Money Map is a full stack web app using Flask and HTML. It enables
+              the users to track their money flow. It has a summary of the
+              incomes and expenses as well as the remaining budget. It also has
+              a section to add either an income or expense. And lastly, the user
+              can view their income and expense.
             </p>
           </div>
         </div>
