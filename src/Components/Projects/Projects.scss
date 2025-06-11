@@ -33,11 +33,13 @@
 }
 
 .project-content {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 40vw 40vw;
+  column-gap: 30px;
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
+  height: 100%;
 }
 
 .project-item {
@@ -45,20 +47,15 @@
   .card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 
-    height: max-content;
-    width: 70vw;
-    border: 2px solid black;
-    border-radius: 15px;
+    height: 70vh;
+    width: auto;
 
     img {
       height: 100%;
       width: 100%;
       object-fit: cover;
-      border-top-left-radius: 15px;
-      border-top-right-radius: 15px;
     }
 
     h2 {
@@ -67,7 +64,7 @@
 
     p {
       margin-bottom: 2rem;
-      padding: 20px;
+      padding: 5px;
       text-align: justify;
     }
   }

@@ -11,7 +11,7 @@ body {
 }
 
 .about-me {
-  margin: 4rem 0 2rem;
+  margin: 2rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,7 +38,7 @@ body {
 }
 .main-about .left-about {
   text-align: justify;
-  max-width: 40%;
+  width: 40vw;
 }
 .main-about .left-about h2 {
   color: black;
@@ -49,9 +49,12 @@ body {
 .main-about .left-about p {
   margin-bottom: 20px;
 }
+.main-about .right-about {
+  width: 40vw;
+}
 .main-about .right-about .skills {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 .main-about .right-about h2 {
@@ -61,8 +64,15 @@ body {
   margin-bottom: 10px;
 }
 .main-about .right-about p {
-  padding: 10px;
+  padding: 10px 16px;
   background-color: rgb(210, 206, 206);
   border-radius: 10px;
   text-align: center;
+  width: -moz-max-content;
+  width: max-content;
+  transition: all 0.2s ease-in-out;
+}
+.main-about .right-about p:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 12px 12px -4px rgba(0, 0, 0, 0.62);
 }/*# sourceMappingURL=About.css.map */

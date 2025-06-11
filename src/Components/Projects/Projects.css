@@ -32,11 +32,14 @@
 }
 
 .project-content {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 40vw 40vw;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
+  height: 100%;
 }
 
 .project-item {
@@ -45,27 +48,21 @@
 .project-item .card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: -moz-max-content;
-  height: max-content;
-  width: 70vw;
-  border: 2px solid black;
-  border-radius: 15px;
+  height: 70vh;
+  width: auto;
 }
 .project-item .card img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
 }
 .project-item .card h2 {
   margin: 2rem 0 1rem;
 }
 .project-item .card p {
   margin-bottom: 2rem;
-  padding: 20px;
+  padding: 5px;
   text-align: justify;
 }/*# sourceMappingURL=Projects.css.map */

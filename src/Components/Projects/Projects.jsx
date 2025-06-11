@@ -3,6 +3,8 @@ import proj1 from "../../assets/parsafe.png";
 import proj2 from "../../assets/react.png";
 import proj3 from "../../assets/php.png";
 import proj4 from "../../assets/cs50.png";
+import proj5 from "../../assets/car_website.png";
+import proj6 from "../../assets/coffee_website.png";
 
 function Projects() {
   return (
@@ -52,12 +54,10 @@ function Projects() {
             <img src={proj3} alt="" />
             <h2>Thesis Registration Website with PHP and HTML</h2>
             <p>
-              A full stack thesis registration web app using PHP and HTML. The
-              website can register thesis, add it to the database, and then be
-              able to search or filter the thesis a user may want to view. The
-              database used is MSSQL. It also uses a login system for
-              administrators by manually adding an administrator account in the
-              database.
+              A thesis registration web app made using PHP, HTML, and MSSQL. It
+              features user and administrator access control. It provides a
+              modern solution in managing academic theses to be used by
+              administrators as well as users or students.
             </p>
           </div>
         </div>
@@ -66,13 +66,40 @@ function Projects() {
             <img src={proj4} alt="" />
             <h2>Money Tracker Website using Flask</h2>
             <p>
-              Money Map is a full stack web app using Flask and HTML. It enables
-              the users to track their money flow. It has a summary of the
-              incomes and expenses as well as the remaining budget. It also has
-              a section to add either an income or expense. And lastly, the user
-              can view their income and expense.
+              MoneyMap is a money tracker web application built using Flask and
+              HTML. It allows users to manage their income, expenses, and
+              remaining budget.
             </p>
           </div>
+        </div>
+
+        <div className="project-item">
+          <a href="https://car-website-wheat.vercel.app" target="_blank">
+            <div className="card">
+              <img src={proj5} alt="" />
+              <h2>Car Website</h2>
+              <p>
+                A website design for car dealership showcasing various car deals
+                and information.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div className="project-item">
+          <a
+            href="https://coffee-website-seven-indol.vercel.app"
+            target="_blank"
+          >
+            <div className="card">
+              <img src={proj6} alt="" />
+              <h2>Coffee Website</h2>
+              <p>
+                A website made for a coffee shop that showcases the shop&apos;s
+                menu and products.
+              </p>
+            </div>
+          </a>
         </div>
       </div>
     </div>

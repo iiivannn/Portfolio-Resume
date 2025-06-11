@@ -48,9 +48,20 @@ function About() {
             <p>ReactJS</p>
             <p>Flask</p>
             <p>PHP</p>
-            <p>SQL</p>
             <p>SASS</p>
             <p>Github</p>
+            <p>Java</p>
+            <p>C#</p>
+            <p>Python</p>
+            <p>MSSQL</p>
+            <p>MySQL</p>
+            <p>PostgreSQL</p>
+            <p>Figma</p>
+            <p>Bootstrap</p>
+            <p>CI/CD</p>
+            <p>.Net Framework</p>
+            <p>Dart</p>
+            <p>Power BI</p>
           </div>
         </div>
       </div>
